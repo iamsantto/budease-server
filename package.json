@@ -1,0 +1,8 @@
+{
+  "name": "budease-server",
+  "version": "1.0.0",
+  "main": "serve.js",
+  "repository": "git@github.com:iamsantto/budease-server.git",
+  "author": "Santhosh <iamsantto@gmail.com>",
+  "license": "MIT"
+}
