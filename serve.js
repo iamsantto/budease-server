@@ -1,7 +1,8 @@
 import {} from 'dotenv/config'
+import morgan from 'morgan'
+
 import app from './source/app'
 import models from './source/models'
-import morgan from 'morgan'
 
 const port = process.env.PORT
 const logger = morgan(':method :url :status :response-time ms - :res[content-length]')
